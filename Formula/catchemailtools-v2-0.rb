@@ -5,6 +5,6 @@ class CatchemailtoolsV20 < Formula
   sha256 "06ea9dfb41a4f6e610d90052e82f64d5635033becefad39e7254e6354a949143"
   license "MIT"
   def install
-    bin.install "CatchEmailTools" => "catchemailtools"
+    bin.install Dir["*"]
   end
 end
