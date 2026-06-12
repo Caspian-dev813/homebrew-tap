@@ -1,4 +1,4 @@
-class CatchemailtoolsV4_1 < Formula
+class Catchemailtools@v4_1 < Formula
   desc "CatchEmailTools v4.1 (macOS arm64)"
   homepage "https://github.com/Caspian-dev813/CatchEmailTools"
   url "https://github.com/Caspian-dev813/CatchEmailTools/releases/download/v4.1/CatchEmailTools_Darwin_arm64_v4.1.tar.gz"
