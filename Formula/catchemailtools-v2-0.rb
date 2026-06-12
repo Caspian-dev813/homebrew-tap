@@ -5,8 +5,7 @@ class CatchemailtoolsV20 < Formula
   sha256 "06ea9dfb41a4f6e610d90052e82f64d5635033becefad39e7254e6354a949143"
   license "MIT"
   def install
-    chdir "."
-    cp_r "CatchEmailTools.app", prefix
-    bin.install_symlink prefix/"CatchEmailTools.app/Contents/MacOS/CatchEmailTools" => "catchemailtools"
+    (prefix/"CatchEmailTools.app").install Dir["CatchEmailTools.app/*"]
+    bin.write_exec_script prefix/"CatchEmailTools.app/Contents/MacOS/CatchEmailTools"
   end
 end
