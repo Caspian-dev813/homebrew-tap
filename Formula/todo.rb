@@ -9,3 +9,4 @@ class Todo < Formula
     system "g++", "todo.cpp", "-o", "todo"
     bin.install "todo"
   end
+end
